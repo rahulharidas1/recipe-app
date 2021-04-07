@@ -1,0 +1,42 @@
+@import url('https://fonts.googleapis.com/css2?family=Londrina+Solid&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Comfortaa&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+.main-header{
+    font-family: 'Londrina Solid', cursive;
+    font-weight: lighter;
+    color: #1f1f1f
+}
+
+.ingredient-list{
+    
+    font-family: 'Montserrat', sans-serif;
+    
+}
+
+.ingredient-list li{
+    padding-top: 10px;
+}
+
+.recipe-img{
+    border-radius: 50%;
+    
+}
+
+.main-div{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    padding: 1 rem;
+    min-width: 40%;
+    margin: 20px;
+    
+    border-radius: 10px;
+    background-color: white;
+    box-shadow: 3px 3px 4px rgba(0,0,0,0.5);
+}
+
+.cuisine{
+    font-family: 'Comfortaa', cursive;
+    font-weight: bold;
+}
